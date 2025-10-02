@@ -110,7 +110,7 @@ docker compose up --build -d
 | **OpenSearch Dashboards** | http://localhost:5601 | Hybrid search engine UI |
 
 #### *~**NOTE**: Check airflow/simple_auth_manager_passwords.json.generated for Airflow username and password~*
-#### **DOES NOT EXIST**: Use **Username**: main, **Password**: main
+#### **ABOVE FILE DOES NOT EXIST** so for Airflow use - **Username**: main, **Password**: main
 ---
 
 ## 📚 Week 1: Infrastructure Foundation ✅
