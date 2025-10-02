@@ -109,8 +109,8 @@ docker compose up --build -d
 | **Airflow Dashboard** | http://localhost:8080 | Workflow management |
 | **OpenSearch Dashboards** | http://localhost:5601 | Hybrid search engine UI |
 
-#### *~ **NOTE**: Check airflow/simple_auth_manager_passwords.json.generated for Airflow username and password ~*
-#### **DOES NOT EXIST**: Use **Username**: main, **Password"": main
+#### *~**NOTE**: Check airflow/simple_auth_manager_passwords.json.generated for Airflow username and password~*
+#### **DOES NOT EXIST**: Use **Username**: main, **Password**: main
 ---
 
 ## 📚 Week 1: Infrastructure Foundation ✅
