@@ -109,7 +109,8 @@ docker compose up --build -d
 | **Airflow Dashboard** | http://localhost:8080 | Workflow management |
 | **OpenSearch Dashboards** | http://localhost:5601 | Hybrid search engine UI |
 
-#### **NOTE**: Check airflow/simple_auth_manager_passwords.json.generated for Airflow username and password
+#### *~ **NOTE**: Check airflow/simple_auth_manager_passwords.json.generated for Airflow username and password ~*
+#### **DOES NOT EXIST**: Use **Username**: main, **Password"": main
 ---
 
 ## 📚 Week 1: Infrastructure Foundation ✅
@@ -1000,7 +1001,7 @@ arxiv-paper-curator/
 
 | Endpoint | Method | Description | Week |
 |----------|--------|-------------|------|
-| `/health` | GET | Service health check | Week 1 |
+| `/api/v1/health` | GET | Service health check | Week 1 |
 | `/api/v1/papers` | GET | List stored papers | Week 2 |
 | `/api/v1/papers/{id}` | GET | Get specific paper | Week 2 |
 | `/api/v1/search` | POST | BM25 keyword search | Week 3 |
